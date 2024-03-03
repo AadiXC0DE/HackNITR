@@ -32,7 +32,7 @@ const Dashboard = () => {
     const formData = new FormData();
     formData.append("file", file);
     const openai = new OpenAI({
-      apiKey: "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",
+      apiKey: import.meta.env.VITE_OPENAI_API_KEY,
       dangerouslyAllowBrowser: true,
     });
 
@@ -70,11 +70,11 @@ const Dashboard = () => {
         }}
       >
         <List>
-          <ListItemButton component={Link} to="/videos">
+          <ListItemButton component={Link} to="/dashboard">
             <ListItemIcon>
               <VideocamIcon />
             </ListItemIcon>
-            <ListItemText primary="Videos" />
+            <ListItemText primary="Dashboard" />
           </ListItemButton>
           <ListItemButton component={Link} to="/calendar">
             <ListItemIcon>
@@ -82,11 +82,11 @@ const Dashboard = () => {
             </ListItemIcon>
             <ListItemText primary="Calendar" />
           </ListItemButton>
-          <ListItemButton component={Link} to="/other">
+          <ListItemButton component={Link} to="/todo">
             <ListItemIcon>
               <EditIcon />
             </ListItemIcon>
-            <ListItemText primary="Edit Videos" />
+            <ListItemText primary="Todo List" />
           </ListItemButton>
           <ListItemButton component={Link} to="/settings">
             <ListItemIcon>
