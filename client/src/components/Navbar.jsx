@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-100/30 py-4 px-6 w-full flex justify-between items-center">
       <div className="flex items-center">
-        <img src="/logo.png" alt="KoalaVision Logo" className="h-8 mr-4" />
+        <img src="/image.png" alt="KoalaVision Logo" className="h-12 mr-4" />
       </div>
       <div className="flex flex-grow justify-center space-x-4 md:space-x-8">
         <a href="#" className="text-gray-800 hover:text-gray-600">
