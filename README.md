@@ -18,5 +18,11 @@ To transform meetings into actionable insights through the development and imple
 <img width="960" alt="image" src="https://github.com/AadiXC0DE/HackNITR/assets/96706283/3a14e964-681f-48c4-811a-cf460343cdb0">
 <img width="960" alt="image" src="https://github.com/AadiXC0DE/HackNITR/assets/96706283/46e54d75-0d5d-4806-95e0-8f92c08ea2a9">
 
+## Videos
+https://www.loom.com/share/13ed42534e5e401783f1e212c4db7cf3?sid=a6d73d01-96da-4e0b-a345-4631cdb16ce6
+
+## Backend Video
+https://www.loom.com/share/a3515444df484aee8761cef849124f5f?sid=6d07a7dd-48c0-4be5-8002-a29d414aec44
+
 
 
