@@ -12,6 +12,9 @@ import EventIcon from "@mui/icons-material/Event";
 import SettingsIcon from "@mui/icons-material/Settings";
 import { Link } from "react-router-dom";
 import ListItemButton from "@mui/material/ListItemButton";
+import axios from "axios";
+import fs from "fs";
+import OpenAI from "openai";
 
 const Dashboard = () => {
   const [showUploadArea, setShowUploadArea] = useState(false);
@@ -20,10 +23,22 @@ const Dashboard = () => {
     setShowUploadArea(true);
   };
 
-  const handleFileUpload = (e) => {
+  const handleFileUpload = async (e) => {
     const file = e.target.files[0];
-    // Process the file here (e.g., upload to server)
-    alert(`File "${file.name}" uploaded successfully!`);
+    const formData = new FormData();
+    formData.append("file", file);
+    const openai = new OpenAI({apiKey: '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', dangerouslyAllowBrowser: true});
+
+    try {
+        const transcription = await openai.audio.transcriptions.create({
+            file: file,
+            model: "whisper-1",
+          });
+
+      console.log("Transcription:", transcription.text);
+    } catch (error) {
+      console.error("Error transcribing file:", error);
+    }
   };
 
   return (
