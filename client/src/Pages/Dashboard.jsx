@@ -31,7 +31,7 @@ const Dashboard = () => {
     const formData = new FormData();
     formData.append("file", file);
     const openai = new OpenAI({
-      apiKey: "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",
+      apiKey: import.meta.env.VITE_OPENAI_API_KEY,
       dangerouslyAllowBrowser: true,
     });
 
