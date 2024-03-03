@@ -23,20 +23,20 @@ To transform meetings into actionable insights through the development and imple
 
 ## Proposed Usecase
 Real-time Meeting Summaries:
-  1)KoalaVision provides real-time summaries of ongoing meetings, highlighting key discussion points, decisions, and action items.
-  2)Users can stay focused on the conversation knowing that KoalaVision is capturing essential information.
+  1. KoalaVision provides real-time summaries of ongoing meetings, highlighting key discussion points, decisions, and action items.
+  2. Users can stay focused on the conversation knowing that KoalaVision is capturing essential information.
 
 Automated To-Do Lists:
-  1)After analyzing meeting content, KoalaVision automatically generates to-do lists based on action items discussed.
-  2)Users can quickly review and prioritize tasks, ensuring nothing gets overlooked in the aftermath of a meeting.
+  1. After analyzing meeting content, KoalaVision automatically generates to-do lists based on action items discussed.
+  2. Users can quickly review and prioritize tasks, ensuring nothing gets overlooked in the aftermath of a meeting.
 
 Calendar Integration:
-  1)KoalaVision seamlessly integrates with calendar applications, allowing users to schedule tasks directly from meeting summaries.
-  2)By streamlining the process of translating meeting outcomes into actionable tasks, KoalaVision ensures efficient time management.
+  1. KoalaVision seamlessly integrates with calendar applications, allowing users to schedule tasks directly from meeting summaries.
+  2. By streamlining the process of translating meeting outcomes into actionable tasks, KoalaVision ensures efficient time management.
 
 Customized Meeting Prioritization:
-  1)KoalaVision categorizes meetings based on their importance and urgency, helping users prioritize their time effectively.
-  2)Users can focus their attention on high-priority meetings while delegating lower-priority tasks to later timeslots.
+  1. KoalaVision categorizes meetings based on their importance and urgency, helping users prioritize their time effectively.
+  2. Users can focus their attention on high-priority meetings while delegating lower-priority tasks to later timeslots.
 
 ## Prototype 
 <img width="960" alt="image" src="https://github.com/AadiXC0DE/HackNITR/assets/96706283/3a14e964-681f-48c4-811a-cf460343cdb0">
