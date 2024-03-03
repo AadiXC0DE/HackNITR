@@ -14,4 +14,9 @@ KoalasVision addresses this challenge by automating the process of determining a
 
 To transform meetings into actionable insights through the development and implementation of KoalasVision, a cutting-edge solution for automated meeting summarization and prioritization.
 
-## Demo
+## Prototype 
+<img width="960" alt="image" src="https://github.com/AadiXC0DE/HackNITR/assets/96706283/3a14e964-681f-48c4-811a-cf460343cdb0">
+<img width="960" alt="image" src="https://github.com/AadiXC0DE/HackNITR/assets/96706283/46e54d75-0d5d-4806-95e0-8f92c08ea2a9">
+
+
+
