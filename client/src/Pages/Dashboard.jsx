@@ -18,6 +18,7 @@ import { Link } from "react-router-dom";
 import ListItemButton from "@mui/material/ListItemButton";
 import OpenAI from "openai";
 import { motion } from "framer-motion";
+import axios from 'axios'
 
 const Dashboard = () => {
   const [showUploadArea, setShowUploadArea] = useState(false);
@@ -42,6 +43,7 @@ const Dashboard = () => {
       });
 
       console.log("Transcription:", transcription.text);
+      const eventData = await axios.post("https://127.0.0.1:5000/", { conversation: transcription.text });
     } catch (error) {
       console.error("Error transcribing file:", error);
     }

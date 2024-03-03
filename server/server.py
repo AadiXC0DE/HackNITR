@@ -37,7 +37,7 @@ def hello_world():
     data = request.json
     return data
 
-@app.route("/")
+@app.route("/", methods=['post'])
 def get_convo():
     # access request data, and perform operations on it
     #rng_tool = RandomNumberGenerator()
