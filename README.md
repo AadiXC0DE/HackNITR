@@ -10,6 +10,13 @@ In the modern workplace, an average of 55 million meetings occurs every week glo
 
 KoalasVision addresses this challenge by automating the process of determining and prioritizing the level of meetings. It achieves this by generating meeting headings and, based on the priority level, summarizing audio content. KoalasVision provides users with a quick and efficient way to grasp the essence of their meetings, ultimately improving productivity and reducing time and financial losses associated with unproductive meetings.
 
+1. Automatically separates voice data from videos and converts it into text using AI technology.
+2. Utilizes an LLM (large language model) based custom agent to process the text and extract specific important information.
+3. Categorizes the extracted information based on priority levels, generating meeting headings for quick reference.
+4. Summarizes audio content according to priority levels, providing users with efficient insights into the essence of their meetings.
+5. Saves categorized information on the platform for easy access and review.
+6. Integrates with Google Calendar to send updates and reminders for important events identified during meetings.
+
 ## Aim:
 
 To transform meetings into actionable insights through the development and implementation of KoalasVision, a cutting-edge solution for automated meeting summarization and prioritization.
