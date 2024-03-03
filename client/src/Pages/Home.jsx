@@ -1,6 +1,11 @@
 import Navbar from "../components/Navbar";
+import {useNavigate} from 'react-router-dom'
 
 const Home = () => {
+    const navigate = useNavigate();
+    const handleKoala=()=>{
+        navigate('/dashboard')
+    }
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-200 to-purple-200">
       <Navbar />
@@ -13,7 +18,7 @@ const Home = () => {
             Record, Upload, and Organize Your Meetings Effortlessly
           </h2>
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <button className="w-full md:w-auto bg-gradient-to-r from-green-400 to-blue-500 text-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+            <button onClick={handleKoala} className="w-full md:w-auto bg-gradient-to-r from-green-400 to-blue-500 text-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
               Try KoalaVision Extension
             </button>
             <button className="w-full md:w-auto bg-gradient-to-r from-pink-400 to-purple-500 text-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
