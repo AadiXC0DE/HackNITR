@@ -39,7 +39,7 @@ const Home = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              Try KoalaVision Extension
+              Try KoalaVision Now!
             </motion.button>
             <motion.button
               className="w-full md:w-auto bg-gradient-to-r from-pink-400 to-purple-500 text-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
